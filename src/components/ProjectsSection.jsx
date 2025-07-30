@@ -3,33 +3,33 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    title: "AI Powered Course Generator Mobile Application",
+    description: "Google gemini API Powered Course Generating Mobile Application.",
+    image: "/projects/project4.png",
+    tags: ["React Native", "Google Gemini","Firebase","React Router","Mobile Application Development"],
+    demoUrl: "https://coaching-guru-yug-app-dev-project--sxsnx9745d.expo.app/home",
+    githubUrl: "https://github.com/yugpunjabi/coaching-guru/tree/main",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Car Marketplace Website",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    "A sleek and user-friendly car marketplace web application for browsing, buying, and listing new or used vehicles with ease.",
+    image: "/projects/project5.png",
+    tags: ["React", "Firebase", "TailwindCSS","ShadCN" ,"React Router"],
+    demoUrl: "https://car-marketplace-yugpunjabi.vercel.app/",
+    githubUrl: "https://github.com/yugpunjabi/car-marketplace-web-app",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "News Application",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
+      "A modern news app built with React Native using GNews API to fetch and display the latest news across various categories with smooth UI and responsive design.",
+    image: "/projects/project6.png",
+    tags: ["React Native", "Expo", "GNews API"],
+    demoUrl: "https://news-application-yug-app-dev-project--c0ip64j9i6.expo.app", // replace with actual demo or EAS hosting link
+    githubUrl: "https://github.com/yourusername/news-app", // replace with actual GitHub repo
+  }  
 ];
 
 export const ProjectsSection = () => {
@@ -100,7 +100,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/yugpunjabi"
           >
             Check My Github <ArrowRight size={16} />
           </a>

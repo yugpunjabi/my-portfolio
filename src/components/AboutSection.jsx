@@ -12,20 +12,20 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & Tech Creator
+              Web & Mobile Application Developer
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              I'm a passionate web developer currently pursuing a Bachelor's in Computer Applications.
+              I specialize in building responsive web and mobile applications using the MERN stack and React Native .
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+              I enjoy solving problems through code and crafting clean, user-friendly interfaces.
+              Currently improving my skills in DSA with Java to strengthen my problem-solving abilities.
+              I’m always exploring new technologies and frameworks to stay updated.
+              Driven by curiosity, I love turning ideas into real-world digital solutions.
+              I aim to contribute to impactful projects that make a difference.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -35,11 +35,15 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href=""
+                href="/Yug_Punjabi_Resume_pdf.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
-                Download CV
+                View Resume
               </a>
+
+
             </div>
           </div>
 
