@@ -27,9 +27,20 @@ const projects = [
       "A modern news app built with React Native using GNews API to fetch and display the latest news across various categories with smooth UI and responsive design.",
     image: "/projects/project6.png",
     tags: ["React Native", "Expo", "GNews API"],
-    demoUrl: "https://news-application-yug-app-dev-project--c0ip64j9i6.expo.app", // replace with actual demo or EAS hosting link
-    githubUrl: "https://github.com/yourusername/news-app", // replace with actual GitHub repo
-  }  
+    demoUrl: "https://news-application-yug-app-dev-project--c0ip64j9i6.expo.app",
+    githubUrl: "https://github.com/yugpunjabi/news-application",
+  },
+  {
+    id: 4,
+    title: "Medicine Tracker App",
+    description:
+      "A medicine tracker built with React Native and Expo, allowing users to add, track, and manage their medications. Features Firebase authentication, local storage, and real-time updates with a clean and intuitive UI.",
+    image: "/projects/project7.png",
+    tags: ["React Native", "Expo", "Firebase"],
+    demoUrl: "https://medicine-tracker-app-dev-project-yug--tchygt7tdc.expo.app/",
+    githubUrl: "https://github.com/yugpunjabi/medicine-tracker",
+}
+  
 ];
 
 export const ProjectsSection = () => {
